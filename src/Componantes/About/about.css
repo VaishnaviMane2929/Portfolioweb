@@ -57,3 +57,40 @@
    color: var(--color-light);
 
 }
+
+
+/* ===========media queries(medium devices)========== */ 
+
+@media screen and (max-width:1024px) {
+   .about_container {
+    grid-template-columns:1fr;
+    gap: 0;
+   }
+   .about  {
+    width: 50%;
+    margin: 2rem auto 4rem;
+
+   }
+   .about_content p {
+    margin: 1fr 0 1.5rem;
+
+   }
+}
+/* ============media queries(small devices)========== */
+
+@media screen and (max-width:600px) {
+    .about_me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+  .about_card {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about_content {
+    text-align: center;
+  }
+  .about_content p {
+    margin: 1.5rem 0;
+  }
+}
