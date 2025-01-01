@@ -1,5 +1,5 @@
 import React from 'react'
-import Untitled from "../../assets/Untitled.pdf";
+import Untitled from "../../assets/Vaishnavi Resume.pdf";
 
 const CTA = () => {
   return (
