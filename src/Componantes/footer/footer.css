@@ -45,10 +45,16 @@ footer a {
 /* ===========media queries(medium devices)========== */ 
 
 @media screen and (max-width:1024px) {
-    
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer_socials {
+        margin-bottom: 2.6rem;
+    }
  }
  /* ============media queries(small devices)========== */
  
- @media screen and (max-width:600px) {
+ /* @media screen and (max-width:600px) {
 
- }
+ } */
